@@ -21,3 +21,5 @@ export type PropertyType = 'READ_ONLY' | 'INCONSISTENT' | 'WEAKLY_CONSISTENT' | 
 export type DataType = 'STRING' | 'BOOLEAN' | 'INTEGER';
 
 export type PropertyCategory = 'SETTING' | 'DATA';
+
+export type Containers = Array<Container>;
