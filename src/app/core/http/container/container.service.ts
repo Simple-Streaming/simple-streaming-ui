@@ -27,7 +27,7 @@ export class ContainerService {
     return this.http.get<Container>(`${ContainerService.API_URL}/containers`, { params });
   }
 
-  post(updates: ContainerUpdates) : Observable<Containers> {
+  post(updates: ContainerUpdates): Observable<Containers> {
     const params = { updates };
 
     return this.http.post<Containers>(`${ContainerService.API_URL}/containers`, params);
