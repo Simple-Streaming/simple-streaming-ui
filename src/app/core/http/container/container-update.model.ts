@@ -3,3 +3,5 @@ export interface ContainerUpdate {
   oldValue?: string;
   newValue: string;
 }
+
+export type ContainerUpdates = Array<ContainerUpdate>;
