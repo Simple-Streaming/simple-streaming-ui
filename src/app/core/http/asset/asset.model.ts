@@ -1,6 +1,6 @@
 export interface Asset {
   id: string;
   contentLength: number;
-  lastModified: string;
+  lastModified: number;
   mediaType: string;
 }
