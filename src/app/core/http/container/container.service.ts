@@ -4,8 +4,8 @@ import { HttpClient, HttpParams } from '@angular/common/http';
 import { environment } from '../../../../environments/environment';
 import { Observable } from 'rxjs';
 
-import { Container, Containers } from '../container/container.model';
-import { ContainerUpdates } from '../container/container-update.model';
+import { Container, Containers } from './container.model';
+import { ContainerUpdates } from './container-update.model';
 
 @Injectable()
 export class ContainerService {
