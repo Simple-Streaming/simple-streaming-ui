@@ -1,13 +1,10 @@
+import { PaginatedList } from '../../shared/paginated-list.model';
+
 export interface Container {
   id: string;
   type: string;
-  children: PaginatedResult<Container>;
+  children: PaginatedList<Container>;
   properties: Array<Property>;
-}
-
-export interface PaginatedResult<T> {
-  data: Array<T>;
-  cursor: string | null;
 }
 
 export interface Property {
