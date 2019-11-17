@@ -5,7 +5,7 @@ import { environment } from '../../../../environments/environment';
 import { Observable } from 'rxjs';
 
 import { Container, Containers } from '../container/container.model';
-import { ContainerUpdate } from '../container/container-update.model';
+import { ContainerUpdates } from '../container/container-update.model';
 
 @Injectable()
 export class ContainerService {
